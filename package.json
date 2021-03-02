@@ -1,0 +1,19 @@
+{
+  "name": "celltowers-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Felix",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
